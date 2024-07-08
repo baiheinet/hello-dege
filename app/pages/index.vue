@@ -7,7 +7,8 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
 <template>
   <div class="centered">
     <h1 :style="{ color }">{{ runtimeConfig.public.helloText }}</h1>
-    <NuxtLink to="/" external>refresh</NuxtLink>
+    <NuxtLink to="/" external>Refresh</NuxtLink>
+    <NuxtLink to="https://www.seg.plus/" external>Go!!</NuxtLink>
   </div>
 </template>
 
